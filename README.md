@@ -79,7 +79,8 @@ The code makes the drone go one square at a time harvests the grass with the if 
 **Demo**
 
 Video Demo :
-![](./step2_video.mp4)
+
+https://github.com/user-attachments/assets/e13f310f-2b0a-4d9f-be00-cc09c8ebf82b
 
 
 **Notes**
@@ -206,7 +207,9 @@ This code plants trees and bushes in a checkerboard pattern across the grid, wat
 **Demo**
 
 Video Demo :
-![](./step5_video.mp4)
+
+https://github.com/user-attachments/assets/31068b91-de95-4c3c-a8e5-fe1533280ca0
+
 
 
 **Notes**
@@ -261,7 +264,8 @@ This code makes the drone to plant, water, and harvest carrots across the grid, 
 **Demo**
 
 Video Demo :
-![](./step6_video.mp4)
+
+https://github.com/user-attachments/assets/77416473-6b69-41a0-8053-520ff1d11170
 
 
 **Notes**
@@ -442,7 +446,8 @@ This code guides the drone to plant, water, and harvest sunflowers across the gr
 **Demo**
 
 Video Demo :
-![](./step8_video.mp4)
+
+https://github.com/user-attachments/assets/608a1ae6-e959-4438-848b-f4e60619161e
 
 
 **Notes**

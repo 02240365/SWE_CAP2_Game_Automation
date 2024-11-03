@@ -114,7 +114,7 @@ This code continuously moves across a 3x3 grid, trading for carrot seeds, planti
 **Demo**
 
 Video Demo :
-![](./step2_video.mp4)
+![](./step3_video.mp4)
 
 
 **Notes**
@@ -163,7 +163,7 @@ This code makes the drone to plant and harvest grass across the grid, applying m
 **Demo**
 
 Video Demo :
-![](./step2_video.mp4)
+![](./step4_video.mp4)
 
 
 **Notes**
@@ -202,7 +202,7 @@ This code plants trees and bushes in a checkerboard pattern across the grid, wat
 **Demo**
 
 Video Demo :
-![](./step2_video.mp4)
+![](./step5_video.mp4)
 
 
 **Notes**
@@ -257,7 +257,7 @@ This code makes the drone to plant, water, and harvest carrots across the grid, 
 **Demo**
 
 Video Demo :
-![](./step2_video.mp4)
+![](./step6_video.mp4)
 
 
 **Notes**
@@ -346,7 +346,7 @@ This code makes the drone to plant and harvest pumpkins by traversing the grid, 
 **Demo**
 
 Video Demo :
-![](./step2_video.mp4)
+![](./step7_video.mp4)
 
 
 **Notes**
@@ -436,7 +436,7 @@ This code guides the drone to plant, water, and harvest sunflowers across the gr
 **Demo**
 
 Video Demo :
-![](./step2_video.mp4)
+![](./step8_video.mp4)
 
 
 **Notes**

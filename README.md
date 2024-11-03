@@ -45,7 +45,8 @@ The code runs an infinite number of times and harvest the grass with the if cond
 
 Video Demo :
 
-![](./step1_video.mp4)
+https://github.com/user-attachments/assets/063f42fe-eb38-4075-b441-f9ee194d6f81
+
 
 
 **Notes**
@@ -114,7 +115,8 @@ This code continuously moves across a 3x3 grid, trading for carrot seeds, planti
 **Demo**
 
 Video Demo :
-![](./step3_video.mp4)
+
+https://github.com/user-attachments/assets/4e087c10-31f0-47c9-b9b8-f19eb494c4d2
 
 
 **Notes**
@@ -163,7 +165,9 @@ This code makes the drone to plant and harvest grass across the grid, applying m
 **Demo**
 
 Video Demo :
-![](./step4_video.mp4)
+
+
+https://github.com/user-attachments/assets/acf2cd7a-d2f3-4e47-9479-143000a02474
 
 
 **Notes**
@@ -346,7 +350,9 @@ This code makes the drone to plant and harvest pumpkins by traversing the grid, 
 **Demo**
 
 Video Demo :
-![](./step7_video.mp4)
+
+
+https://github.com/user-attachments/assets/74fe2733-a9bc-45af-a6db-1b6d7f32fe1f
 
 
 **Notes**
@@ -497,7 +503,7 @@ This code defines a loop where an entity plants bushes, navigates to treasures w
 
 Video Demo :
 
-![](./step9_video.mp4)
+https://github.com/user-attachments/assets/ffd29750-4530-4e10-9360-fcf568317156
 
 
 **Notes**
@@ -626,7 +632,7 @@ This code makes the drone  to navigate a grid-like world, checking the size of c
 
 Video Demo :
 
-![](./step10_video.mp4)
+https://github.com/user-attachments/assets/05f8b107-3fff-404c-bc43-1fcfb040924b
 
 
 **Notes**

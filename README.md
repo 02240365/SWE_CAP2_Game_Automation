@@ -444,6 +444,198 @@ Video Demo :
 - Using the code above I was able to get enough sunflower to unlock lower level of the games like maze, treasure and fertilizers.
 
 
+
+## Step 9 : Treasure Harvesting
+
+**Code**
+
+```python
+def coord():
+	return[get_pos_x(), get_pos_y()]
+directions = [North, East, South, West]
+x = 0
+
+while True:
+	plant(Entities.Bush)
+	do_a_flip()
+	do_a_flip()
+	do_a_flip()
+	do_a_flip()
+	while get_entity_type() != Entities.Hedge:
+		use_item(Items.Fertilizer)
+
+	for i in range(10):
+		visited = []
+		while get_entity_type() != Entities.Treasure:
+			
+			while not move(directions[x]):
+				quick_print(directions[x])
+				x += 1
+				if x == 4:
+					x = 0
+				
+			x -= 1
+			if x == -1:
+				x = 3
+				
+				
+		while get_entity_type() == Entities.Treasure:
+			while not trade_req(Items.Fertilizer, 5):
+				harvest()
+				plant_pumkins(10000)
+			use_item(Items.Fertilizer)
+	harvest()
+	
+	
+```
+
+**Explanation**
+This code defines a loop where an entity plants bushes, navigates to treasures while using fertilizer, and trades for items, repeating the process indefinitely.
+
+
+**Demo**
+
+Video Demo :
+
+![](./step9_video.mp4)
+
+
+**Notes**
+
+- Using the code above I was able to get Treasure to unlock cactus.
+
+
+
+
+# Step 10 : Planting Cactus
+
+**Code**
+
+```python
+def reverse(dir):
+	if dir == South:
+		move(North)
+	elif dir == North:
+		move(South)
+	elif dir == West:
+		move(East)
+	elif dir == East:
+		move(West)
+
+def check_direction(dir):
+	move(dir)
+	m = measure()
+	reverse(dir)
+	return(m)
+
+reset_drone()
+while True:
+	for x in range(get_world_size()):
+		for y in range(get_world_size()):
+			if get_entity_type() != Entities.Cactus:
+				plant(Entities.Cactus)
+			move(South)
+		move(East)
+	count = 0
+	while count != 5:
+		for x in range(get_world_size()):
+			for y in range(get_world_size()):
+				current_cactus = measure()
+				if on_edge(get_pos_x(), get_pos_y()):
+					if x == 0:
+						size = check_direction(West)
+						if size > current_cactus:
+							
+							swap(West)
+								
+						for dir in [North, East]:
+							size = check_direction(dir)
+							if size < current_cactus:
+							
+								swap(dir)
+						
+						# not going south
+					if y == 0:
+						size = check_direction(South)
+						if size > current_cactus:
+							swap(South)
+								
+						
+						for dir in [North, East]:
+							size = check_direction(dir)
+							if size < current_cactus:
+								swap(dir)
+							
+						# not going west
+					if x == get_world_size() -1:
+						for dir in [South, West]:
+							size = check_direction(dir)
+							if size > current_cactus:
+									
+								swap(dir)
+								
+						size = check_direction(East)
+						if size < current_cactus:
+						
+							swap(East)
+								
+						# not going north
+					if y == get_world_size() -1:
+						for dir in [South, West]:
+							size = check_direction(dir)
+							if size > current_cactus:
+									
+								swap(dir)
+								
+						size = check_direction(North)
+						if size < current_cactus:
+								
+							swap(North)
+								
+								
+							# not going east
+				else:
+					for dir in [South, West]:
+						size = check_direction(dir)
+						if size > current_cactus:
+								
+							swap(dir)
+								
+						
+					for dir in [North, East]:
+						size = check_direction(dir)
+						if size < current_cactus:
+							
+							swap(dir)
+						
+					move(South)
+				move(East)
+			count += 1
+			
+	harvest()
+	reset_drone()
+	
+	
+```
+
+**Explanation**
+This code makes the drone  to navigate a grid-like world, checking the size of cacti in its vicinity, planting new cacti where necessary, and attempting to optimize its position based on cactus size, all while ensuring it does not move out of bounds.
+
+
+**Demo**
+
+Video Demo :
+
+![](./step10_video.mp4)
+
+
+**Notes**
+
+- Using the code above I was able to harvest cactus and unlock dinosaur.
+
+
+
+
 # Challenges and Learnings
 
 ## Challenges

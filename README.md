@@ -45,7 +45,7 @@ The code runs an infinite number of times and harvest the grass with the if cond
 
 Video Demo :
 
-![](./step1_video.mp4)
+https://github.com/user-attachments/assets/144c57d6-9d2a-41a0-b874-6317dfd4e8a5
 
 
 **Notes**
@@ -78,7 +78,10 @@ The code makes the drone go one square at a time harvests the grass with the if 
 **Demo**
 
 Video Demo :
-![](./step2_video.mp4)
+
+
+https://github.com/user-attachments/assets/7b84805b-f0b1-4866-92bb-8b6ee015b652
+
 
 
 **Notes**
@@ -114,7 +117,8 @@ This code continuously moves across a 3x3 grid, trading for carrot seeds, planti
 **Demo**
 
 Video Demo :
-![](./step3_video.mp4)
+
+https://github.com/user-attachments/assets/1ce28eca-81f1-4bcb-9e18-3bbadb9bb20c
 
 
 **Notes**
@@ -163,7 +167,8 @@ This code makes the drone to plant and harvest grass across the grid, applying m
 **Demo**
 
 Video Demo :
-![](./step4_video.mp4)
+
+https://github.com/user-attachments/assets/7e187659-a38b-46b0-969f-9819a25cba2b
 
 
 **Notes**
@@ -202,7 +207,9 @@ This code plants trees and bushes in a checkerboard pattern across the grid, wat
 **Demo**
 
 Video Demo :
-![](./step5_video.mp4)
+
+
+https://github.com/user-attachments/assets/208b2564-60cc-424e-812d-456dafeebab8
 
 
 **Notes**
@@ -257,7 +264,11 @@ This code makes the drone to plant, water, and harvest carrots across the grid, 
 **Demo**
 
 Video Demo :
-![](./step6_video.mp4)
+
+
+https://github.com/user-attachments/assets/e40aa6ba-50c7-416f-ba96-9c890e5a1fbd
+
+
 
 
 **Notes**
@@ -346,7 +357,8 @@ This code makes the drone to plant and harvest pumpkins by traversing the grid, 
 **Demo**
 
 Video Demo :
-![](./step7_video.mp4)
+
+https://github.com/user-attachments/assets/ae2cec7a-ca1d-44eb-bc27-8a928ad1001e
 
 
 **Notes**
@@ -436,7 +448,10 @@ This code guides the drone to plant, water, and harvest sunflowers across the gr
 **Demo**
 
 Video Demo :
-![](./step8_video.mp4)
+
+
+https://github.com/user-attachments/assets/7f6e311a-7437-4fc9-b976-d48219136cca
+
 
 
 **Notes**
@@ -497,7 +512,8 @@ This code defines a loop where an entity plants bushes, navigates to treasures w
 
 Video Demo :
 
-![](./step9_video.mp4)
+https://github.com/user-attachments/assets/6c2e126b-d541-4c16-b254-728823c81d91
+
 
 
 **Notes**
@@ -626,7 +642,7 @@ This code makes the drone  to navigate a grid-like world, checking the size of c
 
 Video Demo :
 
-![](./step10_video.mp4)
+https://github.com/user-attachments/assets/fa58eb3a-e4a9-4ca0-b9db-5cad93e6f21a
 
 
 **Notes**
